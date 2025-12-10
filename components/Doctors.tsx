@@ -6,32 +6,31 @@ const DOCTORS = [
     id: 1,
     name: "Drg. Najiyah Shafa Alya, Sp.Ort",
     specialty: "Spesialis Ortodonti",
-    // Menggunakan path string langsung. Pastikan file 'jia.PNG' berada di folder public atau root project Anda agar bisa diakses.
-    image: "/public/assets/doctors/IMG_20251209171856563.PNG"
+    image: "/assets/doctors/IMG_20251209171856563.png"
   },
   {
     id: 2,
     name: "Drg. Rani Aprilia Dilaga, Sp.B.M.M",
     specialty: "Spesialis Bedah Mulut dan Maksilofasial",
-    image: "/public/assets/doctors/IMG_2217.JPG"
+    image: "/assets/doctors/IMG_2217.jpg"
   },
   {
     id: 3,
     name: "Drg. Feny Nursyahrani, Sp.KGA",
     specialty: "Spesialis Kedokteran Gigi Anak",
-    image: "/public/assets/doctors/IMG_2218.JPG"
+    image: "/assets/doctors/IMG_2218.jpg"
   },
   {
     id: 4,
     name: "Drg. Raisah Adina Shiva, Sp.PM",
     specialty: "Spesialis Penyakit Mulut",
-    image: "/public/assets/doctors/IMG_2221.JPG"
+    image: "/assets/doctors/IMG_2221.jpg"
   },
   {
     id: 5,
     name: "Drg. Panji Muhammad, Sp.R.KG",
     specialty: "Spesialis Radiologi Kedokteran Gigi",
-    image: "/public/assets/doctors/IMG_2219.JPG"
+    image: "/assets/doctors/IMG_2219.jpg"
   }
 ];
 

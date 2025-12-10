@@ -6,31 +6,31 @@ const DOCTORS = [
     id: 1,
     name: "Drg. Najiyah Shafa Alya, Sp.Ort",
     specialty: "Spesialis Ortodonti",
-    image: "/assets/doctors/IMG_20251209171856563.png"
+    image: "/assets/doctors/IMG_20251209171856563.PNG"
   },
   {
     id: 2,
     name: "Drg. Rani Aprilia Dilaga, Sp.B.M.M",
     specialty: "Spesialis Bedah Mulut dan Maksilofasial",
-    image: "/assets/doctors/IMG_2217.jpg"
+    image: "/assets/doctors/IMG_2217.JPG"
   },
   {
     id: 3,
     name: "Drg. Feny Nursyahrani, Sp.KGA",
     specialty: "Spesialis Kedokteran Gigi Anak",
-    image: "/assets/doctors/IMG_2218.jpg"
+    image: "/assets/doctors/IMG_2218.JPG"
   },
   {
     id: 4,
     name: "Drg. Raisah Adina Shiva, Sp.PM",
     specialty: "Spesialis Penyakit Mulut",
-    image: "/assets/doctors/IMG_2221.jpg"
+    image: "/assets/doctors/IMG_2221.JPG"
   },
   {
     id: 5,
     name: "Drg. Panji Muhammad, Sp.R.KG",
     specialty: "Spesialis Radiologi Kedokteran Gigi",
-    image: "/assets/doctors/IMG_2219.jpg"
+    image: "/assets/doctors/IMG_2219.JPG"
   }
 ];
 

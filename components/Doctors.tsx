@@ -4,32 +4,32 @@ import ParallaxDecoration from './ParallaxDecoration';
 const DOCTORS = [
   {
     id: 1,
-    name: "Drg. Najiyah Shafa Alya",
+    name: "Drg. Najiyah Shafa Alya, Sp.Ort",
     specialty: "Spesialis Ortodonti",
     // Menggunakan path string langsung. Pastikan file 'jia.PNG' berada di folder public atau root project Anda agar bisa diakses.
     image: "/public/assets/doctors/IMG_20251209171856563.PNG"
   },
   {
     id: 2,
-    name: "Drg. Rani Aprilia Dilaga",
+    name: "Drg. Rani Aprilia Dilaga, Sp.B.M.M",
     specialty: "Spesialis Bedah Mulut dan Maksilofasial",
     image: "/public/assets/doctors/IMG_2217.JPG"
   },
   {
     id: 3,
-    name: "Drg. Feny Nursyahrani",
+    name: "Drg. Feny Nursyahrani, Sp.KGA",
     specialty: "Spesialis Kedokteran Gigi Anak",
     image: "/public/assets/doctors/IMG_2218.JPG"
   },
   {
     id: 4,
-    name: "Drg. Raisah Adina Shiva",
+    name: "Drg. Raisah Adina Shiva, Sp.PM",
     specialty: "Spesialis Penyakit Mulut",
     image: "/public/assets/doctors/IMG_2221.JPG"
   },
   {
     id: 5,
-    name: "Drg. Panji Muhammad",
+    name: "Drg. Panji Muhammad, Sp.R.KG",
     specialty: "Spesialis Radiologi Kedokteran Gigi",
     image: "/public/assets/doctors/IMG_2219.JPG"
   }

@@ -7,31 +7,31 @@ const DOCTORS = [
     name: "Drg. Najiyah Shafa Alya",
     specialty: "Spesialis Ortodonti",
     // Menggunakan path string langsung. Pastikan file 'jia.PNG' berada di folder public atau root project Anda agar bisa diakses.
-    image: "jia.PNG"
+    image: "/public/assets/doctors/IMG_20251209171856563.PNG"
   },
   {
     id: 2,
     name: "Drg. Rani Aprilia Dilaga",
     specialty: "Spesialis Bedah Mulut dan Maksilofasial",
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop"
+    image: "/public/assets/doctors/IMG_2217.JPG"
   },
   {
     id: 3,
     name: "Drg. Feny Nursyahrani",
     specialty: "Spesialis Kedokteran Gigi Anak",
-    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=1974&auto=format&fit=crop"
+    image: "/public/assets/doctors/IMG_2218.JPG"
   },
   {
     id: 4,
     name: "Drg. Raisah Adina Shiva",
     specialty: "Spesialis Penyakit Mulut",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=2000&auto=format&fit=crop"
+    image: "/public/assets/doctors/IMG_2221.JPG"
   },
   {
     id: 5,
     name: "Drg. Panji Muhammad",
     specialty: "Spesialis Radiologi Kedokteran Gigi",
-    image: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2052&auto=format&fit=crop"
+    image: "/public/assets/doctors/IMG_2219.JPG"
   }
 ];
 
@@ -55,7 +55,7 @@ const Doctors: React.FC = () => {
         {/* Layout: Flex wrap with justify-center to handle 5 items nicely (3 top, 2 bottom on desktop) */}
         <div className="flex flex-wrap justify-center gap-10">
           {DOCTORS.map((doctor, index) => (
-            <div 
+            <div
               key={doctor.id}
               className="group w-full sm:w-[calc(50%-1.25rem)] lg:w-[calc(30%-1.7rem)] flex flex-col items-center"
               data-aos="fade-up"
@@ -65,10 +65,10 @@ const Doctors: React.FC = () => {
               <div className="relative w-full aspect-[3/4] overflow-hidden rounded-t-[120px] rounded-b-[20px] mb-6 shadow-soft group-hover:shadow-xl transition-all duration-500">
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-coffee/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
-                
-                <img 
-                  src={doctor.image} 
-                  alt={doctor.name} 
+
+                <img
+                  src={doctor.image}
+                  alt={doctor.name}
                   className="w-full h-full object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
                   onError={(e) => {
                     // Fallback jika gambar lokal tidak ditemukan
@@ -78,12 +78,12 @@ const Doctors: React.FC = () => {
 
                 {/* Social icons appearing on hover (optional luxury touch) */}
                 <div className="absolute bottom-6 left-0 right-0 flex justify-center gap-4 translate-y-10 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500 z-20">
-                    <button className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full text-mocca hover:bg-mocca hover:text-white transition-colors flex items-center justify-center shadow-lg">
-                        <i className="fa-brands fa-linkedin-in"></i>
-                    </button>
-                    <button className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full text-mocca hover:bg-mocca hover:text-white transition-colors flex items-center justify-center shadow-lg">
-                        <i className="fa-solid fa-envelope"></i>
-                    </button>
+                  <button className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full text-mocca hover:bg-mocca hover:text-white transition-colors flex items-center justify-center shadow-lg">
+                    <i className="fa-brands fa-linkedin-in"></i>
+                  </button>
+                  <button className="w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full text-mocca hover:bg-mocca hover:text-white transition-colors flex items-center justify-center shadow-lg">
+                    <i className="fa-solid fa-envelope"></i>
+                  </button>
                 </div>
               </div>
 
